@@ -1,0 +1,92 @@
+enforce_secure_profile: false
+listeners:
+- query_port: 25565
+  motd: CT Cloud Town server
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  ping_passthrough: true
+  priorities:
+  - Survival
+  - Creative
+  - Creative2
+  - Mirror
+  - Mirror2
+  bind_local_address: true
+  host: 0.0.0.0:25565
+  max_players: 10
+  tab_size: 600
+  force_default_server: false
+remote_ping_cache: -1
+network_compression_threshold: 512
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungee.whitelist.utils
+  - bungee.whitelist.admin
+  - whitelist.admin
+log_pings: false
+connection_throttle_limit: 1000
+server_connect_timeout: 50000
+timeout: 300000
+player_limit: -1
+prevent_proxy_connections: false
+ip_forward: true
+groups:
+  GenMannnnnn:
+  - admin
+  Fantasy_Sakura:
+  - admin
+  Death_Shoot3:
+  - admin
+  wh173cl0ud:
+  - admin
+  XiaoYu2021:
+  - admin
+  md_5:
+  - admin
+remote_ping_timeout: 50000
+connection_throttle: 40000
+log_commands: false
+stats: ae946bcb-86b5-4b4d-bcc3-534922d3d2b7
+online_mode: true
+forge_support: false
+disabled_commands:
+- disabledcommandhere
+servers:
+  Survival:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: 59.126.103.245:30001
+    restricted: false
+  Mirror:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: 59.126.103.245:30002
+    restricted: false
+  Mirror2:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: 59.126.103.245:30003
+    restricted: false
+  Creative:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: 59.126.103.245:30004
+    restricted: false
+  Arceon:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: 59.126.103.245:30006
+    restricted: false
+  Creative2:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: 59.126.103.245:30007
+    restricted: false
+  MArceon:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: 59.126.103.245:30010
+    restricted: false

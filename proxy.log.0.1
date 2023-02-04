@@ -1,0 +1,348 @@
+15:24:16 [è³‡è¨Š] Using standard Java JCE cipher.
+15:24:16 [è³‡è¨Š] Using standard Java compressor.
+15:24:16 [è³‡è¨Š] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:6963156:1658
+15:24:16 [è³‡è¨Š] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+15:24:16 [è³‡è¨Š] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+15:24:16 [è³‡è¨Š] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+15:24:16 [è³‡è¨Š] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+15:24:16 [è³‡è¨Š] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+15:24:16 [è³‡è¨Š] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+15:24:16 [è³‡è¨Š] Loaded plugin Geyser-BungeeCord version 2.0.7-SNAPSHOT by GeyserMC
+15:24:16 [è³‡è¨Š] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:16 [è³‡è¨Š] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:16 [è³‡è¨Š] Loaded plugin ViaVersion version 4.4.2 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+15:24:16 [è³‡è¨Š] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:16 [è³‡è¨Š] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:16 [è³‡è¨Š] Loaded plugin BungeeWhitelist version 0.1 by Yunikon
+15:24:16 [è³‡è¨Š] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:16 [è³‡è¨Š] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:16 [è­¦å‘Š] Forced host server pvp is not defined
+15:24:16 [è³‡è¨Š] [Geyser-BungeeCord] ******************************************
+15:24:16 [è³‡è¨Š] [Geyser-BungeeCord] 
+15:24:16 [è³‡è¨Š] [Geyser-BungeeCord] æ­£åœ¨è¼‰å…¥ Geyser ç‰ˆæœ¬ 2.0.7-SNAPSHOT (git-master-33af9e0)
+15:24:16 [è³‡è¨Š] [Geyser-BungeeCord] 
+15:24:16 [è³‡è¨Š] [Geyser-BungeeCord] ******************************************
+15:24:18 [åš´é‡] [Geyser-BungeeCord] Geyser åœ¨ 0.0.0.0:30132 å•Ÿå‹•å¤±æ•—
+15:24:18 [è­¦å‘Š] Exception encountered when loading plugin: Geyser-BungeeCord
+java.util.concurrent.CompletionException: java.net.BindException: Address already in use: bind
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$BiRelay.tryFire(CompletableFuture.java:1498)
+	at java.base/java.util.concurrent.CompletableFuture$CoCompletion.tryFire(CompletableFuture.java:1219)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at com.nukkitx.network.util.Bootstraps.lambda$allOf$0(Bootstraps.java:111)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:999)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:564)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.DatagramChannelImpl.bindInternal(DatagramChannelImpl.java:1194)
+	at java.base/sun.nio.ch.DatagramChannelImpl.bind(DatagramChannelImpl.java:1164)
+	at io.netty.util.internal.SocketUtils$6.run(SocketUtils.java:133)
+	at io.netty.util.internal.SocketUtils$6.run(SocketUtils.java:130)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at io.netty.util.internal.SocketUtils.bind(SocketUtils.java:130)
+	at io.netty.channel.socket.nio.NioDatagramChannel.doBind0(NioDatagramChannel.java:201)
+	at io.netty.channel.socket.nio.NioDatagramChannel.doBind(NioDatagramChannel.java:196)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	... 13 more
+15:24:18 [è³‡è¨Š] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:18 [è³‡è¨Š] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:18 [è³‡è¨Š] [ViaVersion] Loading 1.12 -> 1.13 mappings...
+15:24:18 [è³‡è¨Š] [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+15:24:18 [è³‡è¨Š] [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+15:24:18 [è³‡è¨Š] [ViaVersion] Loading 1.14 -> 1.15 mappings...
+15:24:18 [è³‡è¨Š] [ViaVersion] Loading 1.15 -> 1.16 mappings...
+15:24:18 [è³‡è¨Š] [ViaVersion] Loading block connection mappings ...
+15:24:18 [è³‡è¨Š] [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+15:24:18 [è³‡è¨Š] [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+15:24:18 [è³‡è¨Š] [ViaVersion] Loading 1.17 -> 1.18 mappings...
+15:24:18 [è³‡è¨Š] [ViaVersion] Loading 1.18 -> 1.19 mappings...
+15:24:18 [è³‡è¨Š] Enabled plugin ViaVersion version 4.4.2 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+15:24:18 [è³‡è¨Š] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:18 [è³‡è¨Š] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:18 [è³‡è¨Š] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+15:24:18 [è³‡è¨Š] [ViaVersion] Highest supported version by the proxy: 1.19.1/2 (760)
+15:24:18 [è³‡è¨Š] Enabled plugin BungeeWhitelist version 0.1 by Yunikon
+15:24:18 [è³‡è¨Š] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:18 [è³‡è¨Š] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+15:24:18 [è­¦å‘Š] Could not bind to host /0.0.0.0:25565
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+15:24:18 [è³‡è¨Š] [ViaVersion] Finished mapping loading, shutting down loader executor!
+08:59:13 [¸ê°T] Using standard Java JCE cipher.
+08:59:13 [¸ê°T] Using standard Java compressor.
+08:59:13 [¸ê°T] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:6963156:1658
+08:59:14 [¸ê°T] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+08:59:14 [¸ê°T] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+08:59:14 [¸ê°T] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+08:59:14 [¸ê°T] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+08:59:14 [¸ê°T] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+08:59:14 [¸ê°T] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+08:59:14 [¸ê°T] Loaded plugin Geyser-BungeeCord version 2.0.7-SNAPSHOT by GeyserMC
+08:59:14 [¸ê°T] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:14 [¸ê°T] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:14 [¸ê°T] Loaded plugin ViaVersion version 4.4.2 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+08:59:14 [¸ê°T] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:14 [¸ê°T] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:14 [¸ê°T] Loaded plugin BungeeWhitelist version 0.1 by Yunikon
+08:59:14 [¸ê°T] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:14 [¸ê°T] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:14 [Äµ§i] Forced host server pvp is not defined
+08:59:15 [¸ê°T] [Geyser-BungeeCord] ******************************************
+08:59:15 [¸ê°T] [Geyser-BungeeCord] 
+08:59:15 [¸ê°T] [Geyser-BungeeCord] ¥¿¦b¸ü¤J Geyser ª©¥» 2.0.7-SNAPSHOT (git-master-33af9e0)
+08:59:15 [¸ê°T] [Geyser-BungeeCord] 
+08:59:15 [¸ê°T] [Geyser-BungeeCord] ******************************************
+08:59:20 [ÄY­«] [Geyser-BungeeCord] Geyser ¦b 0.0.0.0:30132 ±Ò°Ê¥¢±Ñ
+08:59:20 [Äµ§i] Exception encountered when loading plugin: Geyser-BungeeCord
+java.util.concurrent.CompletionException: java.net.BindException: Address already in use: bind
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$BiRelay.tryFire(CompletableFuture.java:1498)
+	at java.base/java.util.concurrent.CompletableFuture$CoCompletion.tryFire(CompletableFuture.java:1219)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at com.nukkitx.network.util.Bootstraps.lambda$allOf$0(Bootstraps.java:111)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:999)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:564)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.DatagramChannelImpl.bindInternal(DatagramChannelImpl.java:1194)
+	at java.base/sun.nio.ch.DatagramChannelImpl.bind(DatagramChannelImpl.java:1164)
+	at io.netty.util.internal.SocketUtils$6.run(SocketUtils.java:133)
+	at io.netty.util.internal.SocketUtils$6.run(SocketUtils.java:130)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at io.netty.util.internal.SocketUtils.bind(SocketUtils.java:130)
+	at io.netty.channel.socket.nio.NioDatagramChannel.doBind0(NioDatagramChannel.java:201)
+	at io.netty.channel.socket.nio.NioDatagramChannel.doBind(NioDatagramChannel.java:196)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	... 13 more
+08:59:21 [¸ê°T] [ViaVersion] Loading 1.12 -> 1.13 mappings...
+08:59:21 [¸ê°T] [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+08:59:21 [¸ê°T] [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+08:59:21 [¸ê°T] [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+08:59:21 [¸ê°T] [ViaVersion] Loading 1.15 -> 1.16 mappings...
+08:59:21 [¸ê°T] [ViaVersion] Loading 1.14 -> 1.15 mappings...
+08:59:21 [¸ê°T] [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+08:59:21 [¸ê°T] [ViaVersion] Loading 1.18 -> 1.19 mappings...
+08:59:21 [¸ê°T] [ViaVersion] Loading 1.17 -> 1.18 mappings...
+08:59:21 [¸ê°T] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+08:59:20 [¸ê°T] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:20 [¸ê°T] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:22 [¸ê°T] [ViaVersion] Highest supported version by the proxy: 1.19.1/2 (760)
+08:59:21 [¸ê°T] Enabled plugin ViaVersion version 4.4.2 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+08:59:21 [¸ê°T] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:23 [¸ê°T] [ViaVersion] Loading block connection mappings ...
+08:59:21 [¸ê°T] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:22 [¸ê°T] Enabled plugin BungeeWhitelist version 0.1 by Yunikon
+08:59:22 [¸ê°T] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:22 [¸ê°T] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+08:59:22 [Äµ§i] Could not bind to host /0.0.0.0:25565
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+08:59:24 [¸ê°T] [ViaVersion] Finished mapping loading, shutting down loader executor!
+14:25:04 [¸ê°T] Using standard Java JCE cipher.
+14:25:04 [¸ê°T] Using standard Java compressor.
+14:25:04 [¸ê°T] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:6963156:1658
+14:25:04 [¸ê°T] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+14:25:04 [¸ê°T] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+14:25:04 [¸ê°T] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+14:25:04 [¸ê°T] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+14:25:04 [¸ê°T] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+14:25:04 [¸ê°T] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+14:25:04 [¸ê°T] Loaded plugin Geyser-BungeeCord version 2.0.7-SNAPSHOT by GeyserMC
+14:25:04 [¸ê°T] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:04 [¸ê°T] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:04 [¸ê°T] Loaded plugin ViaVersion version 4.4.2 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+14:25:04 [¸ê°T] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:04 [¸ê°T] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:04 [¸ê°T] Loaded plugin BungeeWhitelist version 0.1 by Yunikon
+14:25:04 [¸ê°T] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:04 [¸ê°T] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:04 [Äµ§i] Forced host server pvp is not defined
+14:25:05 [¸ê°T] [Geyser-BungeeCord] ******************************************
+14:25:05 [¸ê°T] [Geyser-BungeeCord] 
+14:25:05 [¸ê°T] [Geyser-BungeeCord] ¥¿¦b¸ü¤J Geyser ª©¥» 2.0.7-SNAPSHOT (git-master-33af9e0)
+14:25:05 [¸ê°T] [Geyser-BungeeCord] 
+14:25:05 [¸ê°T] [Geyser-BungeeCord] ******************************************
+14:25:11 [ÄY­«] [Geyser-BungeeCord] Geyser ¦b 0.0.0.0:30132 ±Ò°Ê¥¢±Ñ
+14:25:11 [Äµ§i] Exception encountered when loading plugin: Geyser-BungeeCord
+java.util.concurrent.CompletionException: java.net.BindException: Address already in use: bind
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$BiRelay.tryFire(CompletableFuture.java:1498)
+	at java.base/java.util.concurrent.CompletableFuture$CoCompletion.tryFire(CompletableFuture.java:1219)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at com.nukkitx.network.util.Bootstraps.lambda$allOf$0(Bootstraps.java:111)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:999)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:564)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.DatagramChannelImpl.bindInternal(DatagramChannelImpl.java:1194)
+	at java.base/sun.nio.ch.DatagramChannelImpl.bind(DatagramChannelImpl.java:1164)
+	at io.netty.util.internal.SocketUtils$6.run(SocketUtils.java:133)
+	at io.netty.util.internal.SocketUtils$6.run(SocketUtils.java:130)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at io.netty.util.internal.SocketUtils.bind(SocketUtils.java:130)
+	at io.netty.channel.socket.nio.NioDatagramChannel.doBind0(NioDatagramChannel.java:201)
+	at io.netty.channel.socket.nio.NioDatagramChannel.doBind(NioDatagramChannel.java:196)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	... 13 more
+14:25:11 [¸ê°T] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:11 [¸ê°T] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:12 [¸ê°T] [ViaVersion] Loading 1.12 -> 1.13 mappings...
+14:25:12 [¸ê°T] [ViaVersion] Loading block connection mappings ...
+14:25:12 [¸ê°T] [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+14:25:12 [¸ê°T] [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+14:25:12 [¸ê°T] [ViaVersion] Loading 1.14 -> 1.15 mappings...
+14:25:12 [¸ê°T] [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+14:25:13 [¸ê°T] [ViaVersion] Loading 1.15 -> 1.16 mappings...
+14:25:13 [¸ê°T] [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+14:25:13 [¸ê°T] [ViaVersion] Loading 1.17 -> 1.18 mappings...
+14:25:13 [¸ê°T] [ViaVersion] Loading 1.18 -> 1.19 mappings...
+14:25:13 [¸ê°T] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+14:25:13 [¸ê°T] [ViaVersion] Highest supported version by the proxy: 1.19.1/2 (760)
+14:25:13 [¸ê°T] Enabled plugin ViaVersion version 4.4.2 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+14:25:13 [¸ê°T] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:13 [¸ê°T] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:13 [¸ê°T] Enabled plugin BungeeWhitelist version 0.1 by Yunikon
+14:25:13 [¸ê°T] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:13 [¸ê°T] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:6963156:1658 by SpigotMC
+14:25:13 [Äµ§i] Could not bind to host /0.0.0.0:25565
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+14:25:14 [¸ê°T] [ViaVersion] Finished mapping loading, shutting down loader executor!

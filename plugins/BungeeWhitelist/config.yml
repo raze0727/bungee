@@ -1,0 +1,167 @@
+config:
+  kick-message: '&4%player% &r您並非&e雲鎮工藝&r成員/you are not the member!'
+whitelist:
+  global:
+    enabled: false
+    whitelisted:
+    - GenMannnnnn
+    - AYC_j9j9
+    - Death_Shoot3
+    - aass5151678
+    - wh173cl0ud
+    - XiaoYu2021
+    - DuGengMaster
+    - VoidDreamUwU
+    - __POLORBEAR__
+    - Gio_MCuni
+    - cafemars
+    - wahaa2001
+    - Magicdanceing
+    - Mr_YA
+    - Hamster_OaO
+    - GOOGLE4NI
+    - EleMc_115
+    - Malianda1990
+    - FPXtarry
+    - WTK5p1der
+    - Filinz×KY
+    - FlinzKY
+    - monkey_Reachrs
+    - Eddy102015
+    - BreaknNIGHT
+    - JJGPld
+    - Cec_Tora
+    - jacky12006
+    - HugoHuLo
+    - Huaji_MUR233
+    - Bserz
+    - gkair
+    - Reschewe
+    - Ender_alloy
+    - Kaikai0203OuO
+    - FilinzKY
+    - LT_Xiodcs
+    - Jezlarm
+    - Verbal64
+    - Alan33
+    - TYPE_0
+    - CatastropheLU
+    - DS_DuGu_Tw
+    - haima_2000
+    - LO5BenH
+    - haima_0811
+    - suxiansen2016
+    - BiAn0221
+    - hai_dan
+    - Cyanine__
+    - Architecturn
+    - Malianda1990_1
+    - Eric_Yang
+    - sosey
+    - RotDX
+    - Blue_arrowhead
+    - Spark_HK2002
+    - xx_we
+    - Redstone_powder
+    - raze0727
+    - intricate
+    - lntricate
+    - Todxy
+    - HsiaoHsiao
+    - Sorriahn
+    - iopjklnmbn
+    - Fantasy_Sakura
+    - Az_Crazy_H
+    - Az_crazy_H
+    - Runaway_Fancy
+    - PIAOBO
+    - M_zhuangshao
+    - WEIKAN
+    - NingK
+    - Hendrix_Shen
+    - Magic_muggle
+    - RenPinCheng
+    - zxdnb
+    - Runaway_Fancy
+    - PIAOBO
+    - M_zhuangshao
+    - WEIKAN
+    - NingK
+    - Hendrix_Shen
+    - Magic_muggle
+    - RenPinCheng
+    - _Ruri_
+    - Yolo_Morrn
+    - hai_dan
+    - BreakerOwO
+    - BragMatthew
+    - wawuli
+    - Bean778
+    - Qi_Nian_
+    - hail122
+    - hsdd
+    - kuekzikang
+    - Dai_Cyuan
+    - deadly_cupcake
+    - mystr0307
+    - Deadly_Cupcake
+    - sun_Ajie
+    - Kobayashi_Meow
+    - jo9999
+    - hampter42
+    - XLwei
+    - ThetomTW
+    - BasedSinger5437
+    - xXOpticNerveXx
+    - Mingyu787
+    - OrangeVALO
+    - camphorwood
+    - AndrewChen666
+    - Just_A_Pi_
+    - njes9701
+    - AlanWen
+    - Gary0701
+    - MrGodzilla_YT
+    - _Kamper_
+    - _Flying_boy_
+    - yii1
+    - Woql
+    - SigmoidFunction
+    - mc_chau
+    - bamboo20030309
+    - apacchi_owo
+    - michael0920
+    - Michael0920
+    - Petris5256
+  Creative:
+    enabled: false
+    whitelisted:
+    - Malianda1990
+    - RotDX
+  Mirror2:
+    enabled: false
+    whitelisted:
+    - RainbowEgg528
+  Survival:
+    enabled: false
+    whitelisted:
+    - Malianda1990
+    - RainbowEgg528
+  Mirror:
+    enabled: false
+    whitelisted:
+    - RainbowEgg528
+  Lobby:
+    enabled: false
+    whitelisted:
+    - Malianda1990
+    - RotDX
+  Arceon:
+    enabled: false
+    whitelisted: []
+  Creative2:
+    enabled: false
+    whitelisted: []
+  MArceon:
+    enabled: false
+    whitelisted: []

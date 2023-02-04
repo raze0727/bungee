@@ -1,0 +1,1 @@
+org.lintx.plugins.yinwuchat.maven.bstats.bungeecord.Metrics
